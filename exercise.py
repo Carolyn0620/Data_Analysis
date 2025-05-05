@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Your data
+# Data
 data = [89, 47, 164, 296, 30, 215, 138, 78, 48, 39]
 
-# Create the horizontal box plot
+# Create the box plot
 plt.figure(figsize=(5, 2))
 sns.boxplot(data=data, orient="h")
 
